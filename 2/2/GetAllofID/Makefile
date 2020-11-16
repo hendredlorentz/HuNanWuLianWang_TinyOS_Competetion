@@ -1,0 +1,8 @@
+COMPONENT=Exercise3AppC
+CFLAGS += -DCC2420_DEF_CHANNEL=14
+          -DCC2420_DEF_RFPOWER=31
+
+CFLAGS += -I$(TOSDIR)/lib/printf
+
+include $(MAKERULES)
+
